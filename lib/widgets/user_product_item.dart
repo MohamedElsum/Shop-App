@@ -44,6 +44,7 @@ class UserProductItem extends StatelessWidget {
                     scaffold.showSnackBar(SnackBar(content: const Text('Deleted failed!!')));
                   }
                 },
+              //comment
                 icon: Icon(Icons.delete),
               color: Theme.of(context).errorColor,
             ),
